@@ -1,12 +1,12 @@
 # Face-Recognition-with-OpenCV
 
 - This is a simple Face Recognition project using Python OpenCV.
-- We use the Local Binary Pattern Histogram (LBPH) Algorithm for training and recognizing the different faces. LBPH algorithm creates More about the LBPH algorithm at https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b
+- I use the Local Binary Pattern Histogram (LBPH) Algorithm for training and recognizing the different faces. LBPH algorithm creates More about the LBPH algorithm at https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b
 
 ### About the Project
 
-We use the OpenCV library's pre-trained models to perform the task of Face Recognition using the LBPH algorithm.
-OpenCV offers several for the task of object Detection. We use the Frontal-Face Haar Cascade to detect a "face" in the frame. Once a face is detected it has a bounded box to find its location, and the face is extracted, leaving aside the other non-important details in the frame.
+I use the OpenCV library's pre-trained models to perform the task of Face Recognition using the LBPH algorithm.
+OpenCV offers several for the task of object Detection. I use the Frontal-Face Haar Cascade to detect a "face" in the frame. Once a face is detected it has a bounded box to find its location, and the face is extracted, leaving aside the other non-important details in the frame.
 The LBPH algotihm is then run on the extracted face.
 
 ### Requirements
